@@ -1,7 +1,9 @@
-using Decorator.Components;
+using decorator.Classes;
+using decorator.Interface;
 
-namespace Decorator.Decorators
-{
+
+namespace decorator.Classes;
+
     public abstract class Decorator<T> : IComponent<T>
     {
         protected IComponent<T> component;
@@ -16,4 +18,4 @@ namespace Decorator.Decorators
             return component.GetText();
         }
     }
-}
+

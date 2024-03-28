@@ -1,7 +1,7 @@
-using Decorator.Components;
+using decorator.Interface;
 
-namespace Decorator.Components
-{
+namespace decorator.Classes;
+
     public class Concrete: IComponent<string>
     {
         public string GetText()
@@ -9,4 +9,4 @@ namespace Decorator.Components
             return "This is a concrete component.";
         }
     }
-}
+

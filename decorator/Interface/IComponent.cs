@@ -1,7 +1,7 @@
-namespace Decorator.Components
-{
+namespace decorator.Interface;
+
     public interface IComponent<T>
     {
         T GetText();
     }
-}
+
