@@ -11,7 +11,7 @@ namespace decorator.Decorators
 
         public override string GetText()
         {
-            return "Honda Civic" + base.GetText();
+            return base.GetText();
         }
     }
 }

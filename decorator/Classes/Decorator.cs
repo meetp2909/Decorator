@@ -1,7 +1,6 @@
 using decorator.Classes;
 using decorator.Interface;
 
-
 namespace decorator.Classes;
 
     public abstract class Decorator<T> : IComponent<T>
